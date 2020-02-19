@@ -1,0 +1,6 @@
+framework module Pods_Partyology {
+  umbrella header "Pods-Partyology-umbrella.h"
+
+  export *
+  module * { export * }
+}
