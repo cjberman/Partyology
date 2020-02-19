@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F37729F323FD64AF005197AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37729F223FD64AF005197AE /* AppDelegate.swift */; };
+		F37729F523FD64AF005197AE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37729F423FD64AF005197AE /* SceneDelegate.swift */; };
+		F37729F723FD64AF005197AE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37729F623FD64AF005197AE /* ViewController.swift */; };
+		F37729FA23FD64AF005197AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F37729F823FD64AF005197AE /* Main.storyboard */; };
+		F37729FC23FD64B2005197AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F37729FB23FD64B2005197AE /* Assets.xcassets */; };
+		F37729FF23FD64B2005197AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F37729FD23FD64B2005197AE /* LaunchScreen.storyboard */; };
+		F3772A0A23FD64B3005197AE /* PartyologyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3772A0923FD64B3005197AE /* PartyologyTests.swift */; };
+		F3772A1523FD64B3005197AE /* PartyologyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3772A1423FD64B3005197AE /* PartyologyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F3772A0623FD64B3005197AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F37729E723FD64AF005197AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F37729EE23FD64AF005197AE;
+			remoteInfo = Partyology;
+		};
+		F3772A1123FD64B3005197AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F37729E723FD64AF005197AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F37729EE23FD64AF005197AE;
+			remoteInfo = Partyology;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F37729EF23FD64AF005197AE /* Partyology.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Partyology.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F37729F223FD64AF005197AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F37729F423FD64AF005197AE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F37729F623FD64AF005197AE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F37729F923FD64AF005197AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F37729FB23FD64B2005197AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F37729FE23FD64B2005197AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F3772A0023FD64B2005197AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3772A0523FD64B3005197AE /* PartyologyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PartyologyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3772A0923FD64B3005197AE /* PartyologyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartyologyTests.swift; sourceTree = "<group>"; };
+		F3772A0B23FD64B3005197AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3772A1023FD64B3005197AE /* PartyologyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PartyologyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3772A1423FD64B3005197AE /* PartyologyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartyologyUITests.swift; sourceTree = "<group>"; };
+		F3772A1623FD64B3005197AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F37729EC23FD64AF005197AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3772A0223FD64B3005197AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3772A0D23FD64B3005197AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F37729E623FD64AF005197AE = {
+			isa = PBXGroup;
+			children = (
+				F37729F123FD64AF005197AE /* Partyology */,
+				F3772A0823FD64B3005197AE /* PartyologyTests */,
+				F3772A1323FD64B3005197AE /* PartyologyUITests */,
+				F37729F023FD64AF005197AE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F37729F023FD64AF005197AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F37729EF23FD64AF005197AE /* Partyology.app */,
+				F3772A0523FD64B3005197AE /* PartyologyTests.xctest */,
+				F3772A1023FD64B3005197AE /* PartyologyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F37729F123FD64AF005197AE /* Partyology */ = {
+			isa = PBXGroup;
+			children = (
+				F37729F223FD64AF005197AE /* AppDelegate.swift */,
+				F37729F423FD64AF005197AE /* SceneDelegate.swift */,
+				F37729F623FD64AF005197AE /* ViewController.swift */,
+				F37729F823FD64AF005197AE /* Main.storyboard */,
+				F37729FB23FD64B2005197AE /* Assets.xcassets */,
+				F37729FD23FD64B2005197AE /* LaunchScreen.storyboard */,
+				F3772A0023FD64B2005197AE /* Info.plist */,
+			);
+			path = Partyology;
+			sourceTree = "<group>";
+		};
+		F3772A0823FD64B3005197AE /* PartyologyTests */ = {
+			isa = PBXGroup;
+			children = (
+				F3772A0923FD64B3005197AE /* PartyologyTests.swift */,
+				F3772A0B23FD64B3005197AE /* Info.plist */,
+			);
+			path = PartyologyTests;
+			sourceTree = "<group>";
+		};
+		F3772A1323FD64B3005197AE /* PartyologyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F3772A1423FD64B3005197AE /* PartyologyUITests.swift */,
+				F3772A1623FD64B3005197AE /* Info.plist */,
+			);
+			path = PartyologyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F37729EE23FD64AF005197AE /* Partyology */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3772A1923FD64B3005197AE /* Build configuration list for PBXNativeTarget "Partyology" */;
+			buildPhases = (
+				F37729EB23FD64AF005197AE /* Sources */,
+				F37729EC23FD64AF005197AE /* Frameworks */,
+				F37729ED23FD64AF005197AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Partyology;
+			productName = Partyology;
+			productReference = F37729EF23FD64AF005197AE /* Partyology.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F3772A0423FD64B3005197AE /* PartyologyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3772A1C23FD64B3005197AE /* Build configuration list for PBXNativeTarget "PartyologyTests" */;
+			buildPhases = (
+				F3772A0123FD64B3005197AE /* Sources */,
+				F3772A0223FD64B3005197AE /* Frameworks */,
+				F3772A0323FD64B3005197AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3772A0723FD64B3005197AE /* PBXTargetDependency */,
+			);
+			name = PartyologyTests;
+			productName = PartyologyTests;
+			productReference = F3772A0523FD64B3005197AE /* PartyologyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F3772A0F23FD64B3005197AE /* PartyologyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3772A1F23FD64B3005197AE /* Build configuration list for PBXNativeTarget "PartyologyUITests" */;
+			buildPhases = (
+				F3772A0C23FD64B3005197AE /* Sources */,
+				F3772A0D23FD64B3005197AE /* Frameworks */,
+				F3772A0E23FD64B3005197AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3772A1223FD64B3005197AE /* PBXTargetDependency */,
+			);
+			name = PartyologyUITests;
+			productName = PartyologyUITests;
+			productReference = F3772A1023FD64B3005197AE /* PartyologyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F37729E723FD64AF005197AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Charles Berman (student LM)";
+				TargetAttributes = {
+					F37729EE23FD64AF005197AE = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					F3772A0423FD64B3005197AE = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = F37729EE23FD64AF005197AE;
+					};
+					F3772A0F23FD64B3005197AE = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = F37729EE23FD64AF005197AE;
+					};
+				};
+			};
+			buildConfigurationList = F37729EA23FD64AF005197AE /* Build configuration list for PBXProject "Partyology" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F37729E623FD64AF005197AE;
+			productRefGroup = F37729F023FD64AF005197AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F37729EE23FD64AF005197AE /* Partyology */,
+				F3772A0423FD64B3005197AE /* PartyologyTests */,
+				F3772A0F23FD64B3005197AE /* PartyologyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F37729ED23FD64AF005197AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F37729FF23FD64B2005197AE /* LaunchScreen.storyboard in Resources */,
+				F37729FC23FD64B2005197AE /* Assets.xcassets in Resources */,
+				F37729FA23FD64AF005197AE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3772A0323FD64B3005197AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3772A0E23FD64B3005197AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F37729EB23FD64AF005197AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F37729F723FD64AF005197AE /* ViewController.swift in Sources */,
+				F37729F323FD64AF005197AE /* AppDelegate.swift in Sources */,
+				F37729F523FD64AF005197AE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3772A0123FD64B3005197AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3772A0A23FD64B3005197AE /* PartyologyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3772A0C23FD64B3005197AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3772A1523FD64B3005197AE /* PartyologyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F3772A0723FD64B3005197AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F37729EE23FD64AF005197AE /* Partyology */;
+			targetProxy = F3772A0623FD64B3005197AE /* PBXContainerItemProxy */;
+		};
+		F3772A1223FD64B3005197AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F37729EE23FD64AF005197AE /* Partyology */;
+			targetProxy = F3772A1123FD64B3005197AE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F37729F823FD64AF005197AE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F37729F923FD64AF005197AE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F37729FD23FD64B2005197AE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F37729FE23FD64B2005197AE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F3772A1723FD64B3005197AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F3772A1823FD64B3005197AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3772A1A23FD64B3005197AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7RNLY567N6;
+				INFOPLIST_FILE = Partyology/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.NewWaveComputers.Partyology;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F3772A1B23FD64B3005197AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7RNLY567N6;
+				INFOPLIST_FILE = Partyology/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.NewWaveComputers.Partyology;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F3772A1D23FD64B3005197AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7RNLY567N6;
+				INFOPLIST_FILE = PartyologyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.NewWaveComputers.PartyologyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Partyology.app/Partyology";
+			};
+			name = Debug;
+		};
+		F3772A1E23FD64B3005197AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7RNLY567N6;
+				INFOPLIST_FILE = PartyologyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.NewWaveComputers.PartyologyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Partyology.app/Partyology";
+			};
+			name = Release;
+		};
+		F3772A2023FD64B3005197AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7RNLY567N6;
+				INFOPLIST_FILE = PartyologyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.NewWaveComputers.PartyologyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Partyology;
+			};
+			name = Debug;
+		};
+		F3772A2123FD64B3005197AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7RNLY567N6;
+				INFOPLIST_FILE = PartyologyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.NewWaveComputers.PartyologyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Partyology;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F37729EA23FD64AF005197AE /* Build configuration list for PBXProject "Partyology" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3772A1723FD64B3005197AE /* Debug */,
+				F3772A1823FD64B3005197AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3772A1923FD64B3005197AE /* Build configuration list for PBXNativeTarget "Partyology" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3772A1A23FD64B3005197AE /* Debug */,
+				F3772A1B23FD64B3005197AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3772A1C23FD64B3005197AE /* Build configuration list for PBXNativeTarget "PartyologyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3772A1D23FD64B3005197AE /* Debug */,
+				F3772A1E23FD64B3005197AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3772A1F23FD64B3005197AE /* Build configuration list for PBXNativeTarget "PartyologyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3772A2023FD64B3005197AE /* Debug */,
+				F3772A2123FD64B3005197AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F37729E723FD64AF005197AE /* Project object */;
+}
